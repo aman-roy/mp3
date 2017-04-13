@@ -8,8 +8,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
-		
-
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,50 +15,68 @@
 		      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		    <![endif]-->
-
-		
+        
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
 	</head>
 
-<body>
+    <body>
+        <div class="container">
+            <div class="page-header">
+              <h1>MP3 Downloader</h1>
+            </div>
 
-	<div class="container">
+            <!-- Form -->
+            <div class="row">
+                   <div class="col-md-6">
+                    <h3> Download Song MP3 </h3>
+                    <form class="form-inline" action="http://seemplesongs.appspot.com">
+                    <div class="form-group">
+                        <label class="sr-only">Enter Song Name</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">Song Name</div>
+                        <input type="text" class="form-control" placeholder="Enter song name" name="query" autofocus required>
+                    </div>
+                    </div>
+                        <button type="submit" class="btn btn-primary">Download</button>
+                    </form>
+                    </div>
 
-		<div class="page-header">
-		  <h1>MP3 Downloader</h1>
-		</div>
-        
-        <!-- Form -->
-		<div class="row">
-			   <div class="col-md-6">
-				<h3> Download Song MP3 </h3>
-				<form class="form-inline" action="http://seemplesongs.appspot.com">
-				<div class="form-group">
-				    <label class="sr-only">Enter Song Name</label>
-				<div class="input-group">
-				    <div class="input-group-addon">Song Name</div>
-				    <input type="text" class="form-control" placeholder="Enter song name" name="query" autofocus required>
-				</div>
-				</div>
-				    <button type="submit" class="btn btn-primary">Download</button>
-				</form>
-			    </div>
-			    
-			    <div class="col-md-6">
-				<h3> Download Song Video </h3>
-				<form class="form-inline" action="http://seemplesongs.appspot.com/video">
-				<div class="form-group">
-				    <label class="sr-only">Enter Song Name</label>
-				<div class="input-group">
-				    <div class="input-group-addon">Song Name</div>
-				    <input type="text" class="form-control"placeholder="Enter song name" name="query" required>
-				</div>
-				</div>
-				    <button type="submit" class="btn btn-primary">Download</button>
-				</form>
-			    </div>
-		</div>
-        <!-- Form End -->
-        
-	</div>
-</body>
+                    <div class="col-md-6">
+                    <h3> Download Song Video </h3>
+                    <form class="form-inline" action="http://seemplesongs.appspot.com/video">
+                    <div class="form-group">
+                        <label class="sr-only">Enter Song Name</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">Song Name</div>
+                        <input type="text" class="form-control"placeholder="Enter song name" name="query" required>
+                    </div>
+                    </div>
+                        <button type="submit" class="btn btn-primary">Download</button>
+                    </form>
+                    </div>
+            </div>
+            <!-- Form End -->
+            
+            <br>
+            <hr>
+            <!-- Github Buttons -->
+            <div class="row jumbotron">
+                <div class="col-sm-3">
+                    <a class="github-button" href="https://github.com/aman-roy" data-style="mega" data-count-href="/aman-roy/followers" data-count-api="/users/aman-roy#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @aman-roy on GitHub">Follow @aman-roy</a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="github-button" href="https://github.com/aman-roy/mp3_downloader" data-icon="octicon-star" data-style="mega" data-count-href="/aman-roy/mp3_downloader/stargazers" data-count-api="/repos/aman-roy/mp3_downloader#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star aman-roy/mp3_downloader on GitHub">Star</a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="github-button" href="https://github.com/aman-roy/mp3_downloader/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/aman-roy/mp3_downloader/network" data-count-api="/repos/aman-roy/mp3_downloader#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork aman-roy/mp3_downloader on GitHub">Fork</a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="github-button" href="https://github.com/aman-roy/mp3_downloader/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/aman-roy/mp3_downloader#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue aman-roy/mp3_downloader on GitHub">Issue</a>
+                </div>
+            </div>
+            <!-- Github Buttons End -->
+            
+            
+        </div>
+    </body>
 </html>
